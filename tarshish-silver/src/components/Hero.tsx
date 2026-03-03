@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
 
@@ -84,23 +82,6 @@ export default function Hero() {
         <span className="text-[10px] text-white font-bold uppercase tracking-widest">scroll</span>
       </div>
 
-      <style jsx>{`
-        @keyframes scroll-hint {
-          0% { transform: translateY(0); opacity: 1; }
-          100% { transform: translateY(12px); opacity: 0; }
-        }
-        @keyframes subtle-zoom {
-          0% { transform: scale(1); }
-          100% { transform: scale(1.1); }
-        }
-        @keyframes fade-in-up {
-          0% { opacity: 0; transform: translateY(30px); }
-          100% { opacity: 1; transform: translateY(0); }
-        }
-        .animate-scroll-hint { animation: scroll-hint 1.5s infinite; }
-        .animate-subtle-zoom { animation: subtle-zoom 20s linear infinite alternate; }
-        .animate-fade-in-up { animation: fade-in-up 1.2s cubic-bezier(0.2, 0.8, 0.2, 1) forwards; }
-      `}</style>
     </section>
   );
 }
