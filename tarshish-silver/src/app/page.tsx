@@ -10,26 +10,78 @@ export default function Home() {
       <Hero />
 
       {/* ── Intro / Feature Cards ── */}
-      <section id="about" className="py-16 md:py-24 px-6 lg:px-12 scroll-mt-20">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-8">
+      <section id="about" className="py-20 md:py-32 bg-emerald-950 scroll-mt-20">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <div className="text-center mb-14 md:mb-20 space-y-3">
+            <span className="text-emerald-400 font-bold tracking-[0.3em] text-[11px] uppercase">
+              Core Services
+            </span>
+            <h2 className="text-3xl md:text-4xl font-black text-white tracking-tight">
+              다시스의 전문 케어 서비스
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">
             {[
-              { icon: "🚑", title: "전문 의료 서비스", desc: "전문의료진의 24시간 실시간 케어 시스템" },
-              { icon: "🧠", title: "치매 예방 프로그램", desc: "인지 기능 향상을 위한 맞춤형 인지 훈련" },
-              { icon: "🏃", title: "맞춤 재활 운동", desc: "개인별 상태에 따른 기능 회복 운동 서비스" },
-              { icon: "🥦", title: "건강 영양 식단", desc: "신선한 식재료 및 최적의 영양 밸런스 제공" },
+              {
+                num: "01",
+                title: "전문 의료 서비스",
+                desc: "전문의료진의 24시간 실시간 케어 시스템",
+                icon: (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-10 h-10">
+                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                  </svg>
+                ),
+              },
+              {
+                num: "02",
+                title: "치매 예방 프로그램",
+                desc: "인지 기능 향상을 위한 맞춤형 인지 훈련",
+                icon: (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-10 h-10">
+                    <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" />
+                    <path d="M9 18h6" />
+                    <path d="M10 22h4" />
+                  </svg>
+                ),
+              },
+              {
+                num: "03",
+                title: "맞춤 재활 운동",
+                desc: "개인별 상태에 따른 기능 회복 운동 서비스",
+                icon: (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-10 h-10">
+                    <circle cx="12" cy="4" r="2" />
+                    <path d="M15.89 8.11L13 11l2 5H9l2-5-2.89-2.89" />
+                    <path d="M9 16l-1.5 5M15 16l1.5 5" />
+                  </svg>
+                ),
+              },
+              {
+                num: "04",
+                title: "건강 영양 식단",
+                desc: "신선한 식재료 및 최적의 영양 밸런스 제공",
+                icon: (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-10 h-10">
+                    <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z" />
+                    <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
+                  </svg>
+                ),
+              },
             ].map((feature, i) => (
               <div
                 key={i}
-                className="p-6 md:p-10 bg-zinc-50 rounded-[2rem] border border-zinc-100 transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 group"
+                className="group p-8 md:p-10 bg-emerald-900/40 border border-emerald-800/40 rounded-3xl hover:bg-emerald-800/50 hover:border-emerald-700/50 transition-all duration-300 hover:-translate-y-2 flex flex-col"
               >
-                <div className="text-3xl md:text-4xl mb-4 md:mb-6 group-hover:scale-110 transition-transform duration-300">
+                <p className="text-emerald-500 font-bold text-[10px] uppercase tracking-[0.25em] mb-6">
+                  Service {feature.num}
+                </p>
+                <div className="text-emerald-300 mb-6 group-hover:text-white transition-colors duration-300">
                   {feature.icon}
                 </div>
-                <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-2 md:mb-3">
+                <h3 className="text-lg font-bold text-white mb-2 leading-snug">
                   {feature.title}
                 </h3>
-                <p className="text-sm md:text-base text-gray-500 leading-relaxed font-light">
+                <p className="text-sm text-emerald-300/60 leading-relaxed font-light">
                   {feature.desc}
                 </p>
               </div>
