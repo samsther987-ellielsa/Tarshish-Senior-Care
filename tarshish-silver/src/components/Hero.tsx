@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/hero-bg.png"
+          src="/hero-banner.png"
           alt="다시스 실버케어센터의 편안하고 따뜻한 정경"
           fill
           priority

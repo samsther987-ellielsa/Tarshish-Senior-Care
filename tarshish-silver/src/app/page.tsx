@@ -48,8 +48,8 @@ export default function Home() {
             {/* Image */}
             <div className="relative w-full aspect-[4/3] lg:aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl">
               <Image
-                src="/hero-bg.png"
-                alt="Living room in care center"
+                src="/interior.png"
+                alt="다시스 실버케어센터 내부 라운지"
                 fill
                 className="object-cover"
               />
