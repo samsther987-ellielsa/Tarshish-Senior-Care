@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "다시스 실버케어센터",
@@ -22,7 +24,9 @@ export default function RootLayout({
         />
       </head>
       <body className="antialiased font-pretendard text-gray-900 bg-white">
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
