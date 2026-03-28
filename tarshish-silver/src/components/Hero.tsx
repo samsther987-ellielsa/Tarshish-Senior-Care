@@ -95,7 +95,7 @@ export default function Hero() {
 
           {/* Stats */}
           <div
-            className="flex items-center gap-8 md:gap-14 pt-8 md:pt-12 border-t animate-fade-in-up delay-700"
+            className="flex flex-wrap items-center gap-8 md:gap-14 pt-8 md:pt-12 border-t animate-fade-in-up delay-700"
             style={{ borderColor: 'rgba(255,255,255,0.12)' }}
           >
             {[

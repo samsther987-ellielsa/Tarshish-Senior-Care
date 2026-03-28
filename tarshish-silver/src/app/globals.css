@@ -81,6 +81,26 @@ body {
 }
 .grain > * { position: relative; z-index: 1; }
 
+/* ── Extended biophilic palette (CSS custom properties) ── */
+@layer base {
+  :root {
+    --color-cream:        #faf7f2;
+    --color-stone:        #e8ddd0;
+    --color-sage:         #6b8f71;
+    --color-forest:       #2d4a32;
+    --color-amber:        #b87355;
+    --color-charcoal:     #2a2620;
+    /* Tonal variants */
+    --color-sage-light:   #9ab5a0;
+    --color-sage-mid:     #4a6b50;
+    --color-sage-dark:    #3d5a42;
+    --color-forest-deep:  #1e3a24;
+    --color-forest-bg:    #1e3020;
+    --color-warm-dark:    #3a3228;
+    --color-warm-brown:   #5a4a3a;
+  }
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar       { width: 6px; }
 ::-webkit-scrollbar-track { background: #f0e8db; }

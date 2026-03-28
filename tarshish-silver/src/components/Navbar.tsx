@@ -212,6 +212,7 @@ export default function Navbar() {
                 <>
                   <button
                     onClick={() => setMobileExpanded(mobileExpanded === item.name ? null : item.name)}
+                    aria-expanded={mobileExpanded === item.name}
                     className="w-full flex items-center justify-between py-3.5 text-[15px] font-bold transition-colors"
                     style={{ color: "#2a2620" }}
                   >

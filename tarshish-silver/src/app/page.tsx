@@ -248,14 +248,14 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-4 md:gap-5 pt-2">
             <Link
-              href="#"
+              href="/costs/consult"
               className="px-10 py-5 md:px-12 md:py-6 font-bold text-base md:text-lg rounded-2xl text-center text-white transition-all duration-300 hover:-translate-y-1"
               style={{ background: "#b87355", boxShadow: "0 12px 32px rgba(184,115,85,0.38)" }}
             >
               입소 상담 예약하기
             </Link>
             <Link
-              href="#"
+              href="/about/facilities"
               className="px-10 py-5 md:px-12 md:py-6 font-bold text-base md:text-lg rounded-2xl text-center text-white border transition-all duration-300 hover:-translate-y-1"
               style={{ background: "rgba(255,255,255,0.07)", borderColor: "rgba(255,255,255,0.18)" }}
             >
