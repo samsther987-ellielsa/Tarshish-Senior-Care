@@ -34,8 +34,8 @@
   "primaryFeature": "tarshish-silver",
   "features": {
     "tarshish-silver": {
-      "phase": "check",
-      "phaseNumber": 4,
+      "phase": "completed",
+      "phaseNumber": 5,
       "matchRate": 92,
       "iterationCount": 1,
       "requirements": [],
