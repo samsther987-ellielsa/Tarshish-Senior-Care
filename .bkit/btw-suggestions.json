@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "suggestions": [
+    {
+      "id": "btw-001",
+      "timestamp": "2026-03-27T00:00:00Z",
+      "suggestion": "usage가 얼마 없어 — bkit feature usage가 이번 세션에서 적게 활용됨",
+      "context": {
+        "file": "homepage redesign (Hero, page, Navbar, Footer)",
+        "pdcaPhase": "do",
+        "feature": "tarshish-silver"
+      },
+      "category": "improvement",
+      "status": "pending",
+      "promotedTo": null,
+      "priority": null
+    },
+    {
+      "id": "btw-002",
+      "timestamp": "2026-03-27T00:00:01Z",
+      "suggestion": "여기서 마무리 해야할거 같아 — 홈페이지 바이오필릭 리디자인 완료 시점에서 마무리",
+      "context": {
+        "file": "homepage redesign (Hero, page, Navbar, Footer)",
+        "pdcaPhase": "do",
+        "feature": "tarshish-silver"
+      },
+      "category": "general",
+      "status": "pending",
+      "promotedTo": null,
+      "priority": null
+    }
+  ],
+  "stats": {
+    "total": 2,
+    "promoted": 0,
+    "dismissed": 0,
+    "lastAnalyzed": null
+  }
+}

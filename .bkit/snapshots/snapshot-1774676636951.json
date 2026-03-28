@@ -1,0 +1,747 @@
+{
+  "timestamp": "2026-03-28T05:43:56.951Z",
+  "reason": "compaction",
+  "status": {
+    "version": "2.0",
+    "lastUpdated": "2026-03-27T15:45:40.646Z",
+    "activeFeatures": [
+      "tarshish-silver",
+      "about",
+      "greeting",
+      "facilities",
+      "status",
+      "location",
+      "page.tsx",
+      "insurance",
+      "care",
+      "medical",
+      "therapy",
+      "cognitive",
+      "leisure",
+      "emotional",
+      "family",
+      "costs",
+      "info",
+      "eligibility",
+      "consult",
+      "application",
+      "news",
+      "notices",
+      "facility-photos",
+      "activity-photos",
+      "menu",
+      "support",
+      "donation",
+      "volunteer"
+    ],
+    "primaryFeature": "tarshish-silver",
+    "features": {
+      "tarshish-silver": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-03T15:45:38.885Z",
+          "lastUpdated": "2026-03-27T15:45:40.646Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coding/Tarshish/tarshish-silver/src/components/Footer.tsx"
+      },
+      "about": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:51:11.806Z",
+          "lastUpdated": "2026-03-07T13:51:11.806Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/about/page.tsx"
+      },
+      "greeting": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:51:15.693Z",
+          "lastUpdated": "2026-03-24T13:49:34.142Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coding/Tarshish/tarshish-silver/src/app/about/greeting/page.tsx"
+      },
+      "facilities": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:51:23.686Z",
+          "lastUpdated": "2026-03-07T13:51:23.686Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/about/facilities/page.tsx"
+      },
+      "status": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:51:34.623Z",
+          "lastUpdated": "2026-03-07T13:51:34.624Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/about/status/page.tsx"
+      },
+      "location": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:51:48.911Z",
+          "lastUpdated": "2026-03-07T13:51:48.911Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/about/location/page.tsx"
+      },
+      "page.tsx": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:51:58.090Z",
+          "lastUpdated": "2026-03-07T13:51:58.090Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/services/page.tsx"
+      },
+      "insurance": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:52:00.116Z",
+          "lastUpdated": "2026-03-07T13:52:00.116Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/services/insurance/page.tsx"
+      },
+      "care": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:52:01.191Z",
+          "lastUpdated": "2026-03-07T13:52:01.192Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/services/care/page.tsx"
+      },
+      "medical": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:52:02.658Z",
+          "lastUpdated": "2026-03-07T13:52:02.658Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/services/medical/page.tsx"
+      },
+      "therapy": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:52:04.537Z",
+          "lastUpdated": "2026-03-07T13:52:04.537Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/services/therapy/page.tsx"
+      },
+      "cognitive": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:52:05.697Z",
+          "lastUpdated": "2026-03-07T13:52:05.697Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/services/cognitive/page.tsx"
+      },
+      "leisure": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:52:07.234Z",
+          "lastUpdated": "2026-03-07T13:52:07.234Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/services/leisure/page.tsx"
+      },
+      "emotional": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:52:08.739Z",
+          "lastUpdated": "2026-03-07T13:52:08.739Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/services/emotional/page.tsx"
+      },
+      "family": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:52:09.809Z",
+          "lastUpdated": "2026-03-07T13:52:09.810Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/services/family/page.tsx"
+      },
+      "costs": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:52:14.278Z",
+          "lastUpdated": "2026-03-07T13:52:14.278Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/costs/page.tsx"
+      },
+      "info": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:52:15.845Z",
+          "lastUpdated": "2026-03-07T13:52:15.845Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/costs/info/page.tsx"
+      },
+      "eligibility": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:52:17.398Z",
+          "lastUpdated": "2026-03-07T13:52:17.398Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/costs/eligibility/page.tsx"
+      },
+      "consult": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:52:18.905Z",
+          "lastUpdated": "2026-03-07T13:52:18.905Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/costs/consult/page.tsx"
+      },
+      "application": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:52:20.477Z",
+          "lastUpdated": "2026-03-07T13:52:20.477Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/costs/application/page.tsx"
+      },
+      "news": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:52:24.790Z",
+          "lastUpdated": "2026-03-07T13:52:24.790Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/news/page.tsx"
+      },
+      "notices": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:52:25.963Z",
+          "lastUpdated": "2026-03-07T13:52:25.963Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/news/notices/page.tsx"
+      },
+      "facility-photos": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:52:27.537Z",
+          "lastUpdated": "2026-03-07T13:52:27.537Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/news/facility-photos/page.tsx"
+      },
+      "activity-photos": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:52:29.033Z",
+          "lastUpdated": "2026-03-07T13:52:29.033Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/news/activity-photos/page.tsx"
+      },
+      "menu": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:52:30.542Z",
+          "lastUpdated": "2026-03-07T13:52:30.542Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/news/menu/page.tsx"
+      },
+      "support": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:52:31.636Z",
+          "lastUpdated": "2026-03-07T13:52:31.636Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/support/page.tsx"
+      },
+      "donation": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:52:32.877Z",
+          "lastUpdated": "2026-03-07T13:52:32.877Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/support/donation/page.tsx"
+      },
+      "volunteer": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-07T13:52:34.298Z",
+          "lastUpdated": "2026-03-07T13:52:34.298Z"
+        },
+        "lastFile": "/Users/sam/Desktop/coading/Tarshish/tarshish-silver/src/app/support/volunteer/page.tsx"
+      }
+    },
+    "pipeline": {
+      "currentPhase": 1,
+      "level": "Dynamic",
+      "phaseHistory": []
+    },
+    "session": {
+      "startedAt": "2026-03-03T14:48:56.175Z",
+      "onboardingCompleted": false,
+      "lastActivity": "2026-03-27T15:45:40.646Z"
+    },
+    "history": [
+      {
+        "timestamp": "2026-03-03T15:45:38.885Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-03T15:46:08.737Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-03T15:47:26.935Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-03T15:58:52.110Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-03T15:59:00.142Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-03T16:11:13.444Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-03T16:11:40.581Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-03T16:12:29.399Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-03T16:17:35.707Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-03T16:17:41.477Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-03T16:17:48.623Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-03T16:29:40.921Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-03T16:34:36.778Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-03T16:42:15.694Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:47:38.791Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:48:02.535Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:48:18.144Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:48:37.388Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:49:59.681Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:50:31.680Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:51:11.806Z",
+        "feature": "about",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:51:15.693Z",
+        "feature": "greeting",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:51:23.686Z",
+        "feature": "facilities",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:51:34.624Z",
+        "feature": "status",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:51:48.911Z",
+        "feature": "location",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:51:58.090Z",
+        "feature": "page.tsx",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:52:00.116Z",
+        "feature": "insurance",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:52:01.192Z",
+        "feature": "care",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:52:02.658Z",
+        "feature": "medical",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:52:04.537Z",
+        "feature": "therapy",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:52:05.697Z",
+        "feature": "cognitive",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:52:07.234Z",
+        "feature": "leisure",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:52:08.739Z",
+        "feature": "emotional",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:52:09.810Z",
+        "feature": "family",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:52:14.278Z",
+        "feature": "costs",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:52:15.845Z",
+        "feature": "info",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:52:17.398Z",
+        "feature": "eligibility",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:52:18.905Z",
+        "feature": "consult",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:52:20.477Z",
+        "feature": "application",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:52:24.790Z",
+        "feature": "news",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:52:25.963Z",
+        "feature": "notices",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:52:27.537Z",
+        "feature": "facility-photos",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:52:29.033Z",
+        "feature": "activity-photos",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:52:30.542Z",
+        "feature": "menu",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:52:31.636Z",
+        "feature": "support",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:52:32.877Z",
+        "feature": "donation",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-07T13:52:34.298Z",
+        "feature": "volunteer",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-24T13:47:40.458Z",
+        "feature": "greeting",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-24T13:49:34.142Z",
+        "feature": "greeting",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-27T15:39:13.084Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-27T15:39:28.733Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-27T15:40:48.053Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-27T15:43:30.427Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-27T15:45:16.399Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-27T15:45:40.646Z",
+        "feature": "tarshish-silver",
+        "phase": "do",
+        "action": "updated"
+      }
+    ]
+  }
+}
